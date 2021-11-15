@@ -1,0 +1,544 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+body {
+    background-color: black;
+}
+
+#wrap {
+    width: 1900px;
+    margin: 0 auto;
+    margin-top: -20px;
+    
+}
+
+.header {
+    position: relative;
+    width: 1900px;
+    color: white;
+}
+
+.header_section1 {
+    position: absolute;
+    text-align: center;
+    top: 300px;
+    left: 150px;
+}
+
+.header h1 {
+    font-size: 100px;
+    margin-top: 60px;
+    font-family: 'RixGO B';
+}
+
+.header h3 {
+    font-size: 40px;
+    color: white;
+    font-family: 'RixGo L';
+}
+
+.header_section2 {
+    width: 450px;
+    position: absolute;
+    top: 800px;
+    left: 280px;
+}
+
+.header_section2 h4 {
+    font-size: 35px;
+    color: white;
+    margin-bottom: 110px;
+    font-family: 'RixGo L';
+}
+
+.header_section2_box1 {
+    position: absolute;
+    width: 250px;
+    float: left;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    left: -90px;
+    transition: 0.5s;
+}
+
+.header_section2_box2 {
+    position: absolute;
+    width: 250px;
+    float: left;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.header_section2 li {
+    padding-left: 70px;
+}
+
+.header_section2 h5 {
+    font-size: 30px;
+}
+
+.header_section2 img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 0px;
+}
+
+.header_section2_box1:hover {
+    background-color: gray;
+   
+}
+
+.header_section2_box2:hover {
+    background-color: gray;
+}
+
+.section1 {
+    width: 1900px;
+    height: 1200px;
+    position: relative;
+}
+
+.section1_left {
+    width: 50%;
+    float: left;
+}
+
+
+.section1_left_btn {
+    position: absolute;
+    top: 1050px;
+    left: 220px;
+    display: none;
+}
+
+.section1_left_btn li {
+    float: left;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 70px;
+}
+
+.section1_left_btn .btn1 {
+    background-color: #293d55;
+}
+
+.section1_right {
+    width: 50%;
+    float: left;
+}
+
+.section1_right img {
+    position: absolute;
+    left: 0;
+}
+
+.section1_right_text {
+    position: absolute;
+    color: white;
+    right: 120px;
+    top: 246px;
+}
+
+.section1_right_text h2 {
+    font-family: 'RixGo M';
+    font-size: 60px;
+    margin-bottom: 110px;
+}
+
+.section1_right_text .big {
+    font-family: 'RixGo L';
+    font-size: 50px;
+    margin-bottom: 280px;
+}
+
+.section1_right_text .date {
+    font-family: 'RixGo M';
+    color: #293d55;
+
+}
+
+.section1_right_text .small {
+    font-family: 'RixGo L';
+    font-size: 24px;
+    
+}
+
+.section2 {
+    width: 1900px;
+    height: 1200px;
+    position: relative;
+}
+
+.section2_left {
+    width: 50%;
+    float: left;
+}
+
+.section2_right {
+    width: 50%;
+    float: left;
+}
+
+.section2_right img {
+    position: absolute;
+    left: 0;
+}
+
+.section2_left_text {
+    position: absolute;
+    color: white;
+    left: 180px;
+    top: 246px;
+}
+
+.section2_left_text h2 {
+    font-family: 'RixGo M';
+    font-size: 60px;
+    margin-bottom: 110px;
+}
+
+.section2_left_text .big {
+    font-family: 'RixGo L';
+    font-size: 50px;
+    margin-bottom: 260px;
+}
+
+.section2_left_text .date {
+    font-family: 'RixGo M';
+    color: #293d55;
+
+}
+
+.section2_left_text .small {
+    font-family: 'RixGo L';
+    font-size: 24px;
+}
+
+.section3 {
+    width: 1900px;
+    height: 1200px;
+    position: relative;
+}
+
+.section3_left {
+    width: 50%;
+    float: left;
+}
+
+.section3_left .left {
+    position: absolute;
+    top: 120px;
+    left: 50px;
+}
+
+.section3_left .right {
+    position: absolute;
+    top: 120px;
+    left: 450px;
+}
+
+.section3_left .center {
+    position: absolute;
+    top: 200px;
+    left: 260px;
+}
+
+.section3_right {
+    width: 50%;
+    float: left;
+}
+
+.section3_right img {
+    position: absolute;
+    left: 0;
+}
+
+.section3_right_text {
+    position: absolute;
+    color: white;
+    right: 113px;
+    top: 246px;
+}
+
+.section3_right_text h2 {
+    font-family: 'RixGo M';
+    font-size: 60px;
+    margin-bottom: 110px;
+}
+
+
+.section3_right_text .big {
+    font-family: 'RixGo L';
+    font-size: 50px;
+    margin-bottom: 257px;
+}
+
+.section3_right_text .date {
+    font-family: 'RixGo M';
+    color: #293d55;
+
+}
+
+.section3_right_text .small {
+    font-family: 'RixGo L';
+    font-size: 24px;
+}
+
+.event {
+    width: 1900px;
+    height: 1200px;
+}
+
+.event_main {
+    text-align: center;
+    position: relative;
+}
+
+.event_main h2 {
+    position: absolute;
+    top: 140px;
+    left: 844px;
+    font-family: 'RixGo L';
+    font-size: 83px;
+}
+
+.event_main h1 {
+    position: absolute;
+    top: 250px;
+    left: 760px;
+    font-family: 'RixGo M';
+    font-size: 100px;
+    color: #293e54;
+}
+
+.event_main span {
+    display: block;
+    margin-top: 20px;
+    color: #4b4f54;
+}
+
+.event_main p {
+    position: absolute;
+    top: 530px;
+    left: 785px;
+    font-size: 25px;
+    font-family: 'RixGo M'
+}
+
+
+.event_box1 {
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+}
+
+.event_box2 {
+    position: absolute;
+    bottom: 50px;
+    left: 600px;
+}
+
+.event_box3 {
+    position: absolute;
+    bottom: 60px;
+    right: 0;
+}
+
+.event_text h3 {
+    font-size: 40px;
+    font-family: 'RixGo L';
+    cursor: pointer;
+}
+
+.text1 {
+    position: absolute;
+    left: 180px;
+    bottom: 270px;
+}
+
+.text2 {
+    position: absolute;
+    left: 800px;
+    bottom: 270px;
+}
+
+.text3 {
+    position: absolute;
+    right: 190px;
+    bottom: 270px;
+}
+
+.footer {
+    width: 1900px;
+    height: 220px;
+    background-color: black;
+    color: white;
+}
+
+.footer_left {
+    height: 200px;
+    float: left;
+}
+
+.footer_left_item {
+    padding: 15px 0 0 94px;
+    color: gray;
+
+}
+
+.footer_left_item li {
+    padding-top: 15px; 
+}
+
+.footer_left_item li:first-child {
+    padding: 0;
+    padding-bottom: 10px;
+    font-size: 23px;
+    color: white;
+}
+
+.footer_left_item li:last-child {
+    padding-top: 20px;
+
+}
+
+.footer_center {
+    height: 200px;
+    float: left;
+    margin-left: 200px;
+}
+
+.footer_center_item {
+    padding: 40px;
+    color: gray;
+}
+
+.footer_center_item li {
+    line-height: 20px;
+    padding: 10px 30px;
+    border-left: 1px solid gray;
+}
+
+.footer_center_item li:hover {
+    color: white;
+    border-left-color: white;
+}
+
+.footer_right {
+    width: 600px;
+    height: 200px;
+    float: right;
+    position: relative;
+}
+
+.footer_right_item {
+    padding: 15px 40px 0 0;
+    text-align: center;
+}
+
+.footer_right_item p {
+    font-size: 23px;
+    color: white;
+    text-align: left;
+    margin-left: 55px;
+}
+
+.footer_right_item .text1 {
+    position: absolute;
+    left: -91px;
+    bottom: 100px;
+    color: gray;
+}
+
+.footer_right_item .text2 {
+    position: absolute;
+    left: 250px;
+    bottom: 100px;
+    color: gray;
+}
+
+.footer_right_item_box1 {
+    position: absolute;
+    width: 183px;
+    height: 50px;
+    float: left;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    bottom: 30px;
+    left: -128px;
+    transition: 0.5s;
+    text-align: left;
+}
+
+.footer_right_item_box2 {
+    position: absolute;
+    width: 180px;
+    height: 50px;
+    float: left;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    bottom: 30px;
+    right: 215px;
+    transition: 0.5s;
+    text-align: left;
+}
+
+.footer_right_item li {
+    padding-left: 50px;
+}
+
+.footer_right_item_box1:hover {
+    background-color: gray;
+}
+
+.footer_right_item_box2:hover {
+    background-color: gray;
+}
+
+
+.footer_right_item h5 {
+    font-size: 22px;
+}
+
+.footer_right_item img {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: -2px;
+}
+
+.qrcode1 {
+    position: absolute;
+    left: 40px;
+    bottom: -16px;
+}
+
+.qrcode2 {
+    position: absolute;
+    left: 368px;
+    bottom: -10px;
+}
